@@ -1,3 +1,20 @@
 export const Navbar = () =>{
-    return <nav>h</nav>
+    return(
+        <header>
+            <nav>
+                <div>Bar Antartida</div>
+                <ul>
+                    <li>
+                        <a href="">Lomitos</a>
+                    </li>
+                    <li>
+                        <a href="">Burguers</a>
+                    </li>
+                    <li>
+                        <a href="">Pastas</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    )
 }
